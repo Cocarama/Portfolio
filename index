@@ -2,11 +2,16 @@
 <html lang="">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen">
     <title>Portfolio</title>
   </head>
   <body>
-    <header></header>
-    <main>test</main>
-    <footer></footer>
+    <header>
+      <h1>Portfolio de Thomas Devaux</h1>
+    </header>
+
+    <section id="Présentation"></section>
+    <section id="Competence"></section>
+    <section id="Experience"></section>
   </body>
 </html>
