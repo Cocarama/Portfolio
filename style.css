@@ -1,3 +1,13 @@
+html{
+    background-color: #CECECE;
+    line-height: normal;
+}
+
+header{
+    border: solid 2px black;
+    margin-bottom: 1%;
+}
+
 h1{
     text-align: center;
 }
@@ -7,6 +17,11 @@ h2{
     margin: 0;
     padding: 0;
 }
+
+section{
+    margin:1%;
+}
+
 details > summary {
     padding: 4px;
     width: 200px;
@@ -15,7 +30,6 @@ details > summary {
     box-shadow: 2px 2px 2px #000000;
     cursor: pointer;
 
-    
   }
   
 details{
@@ -24,3 +38,15 @@ details{
     padding: 0;
 }
 
+ol{
+    list-style: none;
+}
+
+ul{
+    list-style:disc;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
