@@ -5,7 +5,13 @@ html{
 
 header{
     border: solid 2px black;
+    background-color: #a8a8a8;
     margin-bottom: 1%;
+}
+
+main{
+    display: flex;
+    margin-top: 1%;
 }
 
 h1{
@@ -20,6 +26,9 @@ h2{
 
 section{
     margin:1%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: left;
 }
 
 details > summary {
@@ -29,13 +38,15 @@ details > summary {
     border: none;
     box-shadow: 2px 2px 2px #000000;
     cursor: pointer;
-
+    
   }
   
 details{
     justify-content: space-around;
     margin: 0;
+    width: 208px;
     padding: 0;
+    overflow-wrap: break-word;
 }
 
 ol{
@@ -46,7 +57,25 @@ ul{
     list-style:disc;
 }
 
-div{
-    display: flex;
-    flex-wrap: wrap;
+img{
+   height: 10%;
+   width: 10%;
+}
+
+article{
+    margin-top: 7%;
+}
+
+footer{
+    border: solid 2px black;
+    background-color: #a8a8a8;
+    padding: 1%;
+    margin-top:25%;
+    text-align: center;
+    justify-content: center;
+}
+
+nav > a{
+
+   margin-right: 5%;
 }
