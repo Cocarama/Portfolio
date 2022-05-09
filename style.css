@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+details > summary {
+    padding: 4px;
+    width: 200px;
+    background-color: #7a7a7a;
+    border: none;
+    box-shadow: 2px 2px 2px #000000;
+    cursor: pointer;
+
+    
+  }
+  
+details{
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
