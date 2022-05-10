@@ -79,3 +79,9 @@ nav > a{
 
    margin-right: 5%;
 }
+
+footer > pre {
+    text-align:right ;
+    margin: 0;
+
+}
