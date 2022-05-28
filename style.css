@@ -39,7 +39,7 @@ details > summary {
     border: none;
     box-shadow: 2px 2px 2px #000000;
     cursor: pointer;
-    
+    color: white;
   }
   
 details{
@@ -53,6 +53,7 @@ details{
 
 ol{
     list-style: none;
+   
 }
 
 ul{
@@ -66,6 +67,7 @@ img{
 
 article{
     margin-top: 7%;
+    color: white;
 }
 
 footer{
