@@ -24,6 +24,10 @@ h2{
     padding: 0;
 }
 
+h3{
+    color: white;
+}
+
 section{
     margin:1%;
     margin-right: 10%;
@@ -56,6 +60,7 @@ ol{
 
 ul{
     list-style:disc;
+    color: white;
 }
 
 img{
@@ -90,9 +95,4 @@ footer > pre {
 
 p{
     color: white;
-}
-
-a{
-    color: white;    
-    text-decoration: underline;
 }
