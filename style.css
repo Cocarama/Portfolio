@@ -29,7 +29,6 @@ section{
     margin-right: 10%;
     display: flex;
     justify-content: left;
-    color: white;
 }
 
 details > summary {
@@ -91,4 +90,8 @@ footer > pre {
 
 p{
     color: white;
+}
+
+a{
+    color: white;    
 }
