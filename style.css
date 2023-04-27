@@ -1,11 +1,11 @@
 html{
-    background-color: #26495c;
+    background-color: white;
     line-height: normal;
 }
 
 header{
     border: solid 2px black;
-    background-color: #c4a35a;
+    background-color: #00FFFF;
     margin-bottom: 1%;
 }
 
