@@ -1,12 +1,12 @@
 html{
-    background-color: #DDD0C8;
+    background-color: #E3Eff5;
     line-height: normal;
     color:white;
 }
 
 header{
     border: solid 2px black;
-    background-color: #323232;
+    background-color: #283C5C;
     margin-bottom: 1%;
 }
 
@@ -39,7 +39,7 @@ section{
 details > summary {
     padding: 4px;
     width: 200px;
-    background-color: #323232;
+    background-color: #283C5C;
     border: none;
     box-shadow: 2px 2px 2px #000000;
     cursor: pointer;
@@ -76,7 +76,7 @@ article{
 
 footer{
     border: solid 2px black;
-    background-color: #323232;
+    background-color: #283C5C;
     padding: 1%;
     margin-top:25%;
     text-align: center;
