@@ -6,52 +6,66 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <h1>Portfolio de Thomas Devaux</h1>
+    <header id="header">
+      <h1>Mon Portfolio</h1>
+     
     </header>
+    
+     <nav id="navbar">
+      <a href="#header">Présentation</a>
+      <a href="#Competences">Competences</a>
+      <a href="#Projets">Projets</a>
+      <a href="#Contact">Contact</a>
+    </nav>
   <main>
-    <section class="Présentation">
-        <details>
-             <summary><h2> Présentation</h2></summary>
-            <p>Thomas Devaux, né le 02/06/2001 à Lyon.  
-                Etudiant de premiere année BUT Informatique - IUT2 Grenoble-Alpes</p>
-        </details>
+    
+    <section id="Présentation">
+        <article>
+          <h2>Présentation</h2>
+          Je m'appelle Thomas Devaux, j'ai 21ans et je suis étudiant en 1er de BUT Informatique à l'Université Grenoble-Alpes. J'ai réalisé un BAC STMG au lycée Pierre Béghin à Moirans.
+        </article>
     </section>    
 
-    <section class="Competences">
-        <details>
-            <summary><h2> Competence</h2></summary>
-           <ol>
-             <li><h3>Langue étrangere : </h3></li>
-                <ul>
-                  <li><strong>Anglais</li>
-                  <li>Espagnol</strong></li>
-                </ul>
+    <section id="Competences">
+      <article>
+        <h2>Competences</h2>
 
-             <li><h3>Langage informatique : </h3></li>
-                <ul>
-                  <li><a href="https://www.w3schools.com/html/default.asp"><strong>HTML</a></li>
-                  <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
-                  <li><a href="https://www.w3schools.com/java/default.asp"> JAVA</a></li>
-                  <li><a href="https://www.w3schools.com/cpp/default.asp">C++</a></strong></li>
-                </ul>
-           </ol>
-       </details>
+      </article>
+        
     </section>
 
-    <section class="Experiences">
-        <details>
-            <summary><h2> Experience</h2></summary>
-           <article><p> J'ai réalisé deux stages d'observation en classe de troisieme, le premier dans une agence immobiliére et le second dans un cabinet tutélaire.</p> </article>
-       </details>
+    <section id="Projets">
+      <article>
+        <h2>Projets</h2>
+        <h3>Implémentation d'un besoin client</h3>
+        <p>Par groupe de 2, nous avons réalisé un progamme en JAVA, permettant de trier et de classer des dépeches en fonction de 5 catégories. 
+          Pour cela, il fallait attribuer un score pour chaque dépeche. Il a donc fallu établir, dabord, manuellement une liste de mots de référence pour chaque catégorie. Nous avons ensuite amélioré notre code pour qu'il fasse automatique ces listes.  </p>
+        
+        <h3>Installation d'un poste de développement</h3>
+        <p>Dans ce projet, j'ai installé une machine virtuelle. Sur cette machine j'ai installé Debian 11 avec KDE/Plasma ainsi qu'un logiciel pour le développement informatique. Je l'ai installé en utilisant le package Flatpack et Snap. J'ai ensuite réalisé une carte mentale afin de le refaire facilement.
+          CARTE MENTALE
+        </p>
+
+        <h3>Création d'une base de donnée</h3>
+        <p>Par groupe de 2, nous devions développer une base de donnée sur le naufrage du Titanic. Nous avons dabord rassemblé les informations utiles sur les naufragés et le bateau ainsi que les canaux de sauvetage. Ensuite avec l'aide de différentes requétes SQL nous avons montré que notre base était fonctionnelle. </p>
+
+        <h3>Recueil de besoins</h3>
+        <p>Par Groupe de 4, nous avons rassemblé différentes informations sur une entreprise. Nous les avons ensuite rassemblé sur un site web que nous avons créé. 
+          Le site web est à destination d'élèves de 3eme dans le cadre de leurs recherche de stage. Le but étant de leurs présenter l'entreprise et ce qu'elle fait pour l'environnement.</p>
+          <a class="site" href="https://cocarama.github.io/sae/">Lien du site</a> 
+        
+
+      </article>
+       
     </section>
   
-    <section class="Contact">
-      <details>
-          <summary><h2> Contact</h2></summary>
-         <p>Thomas.Devaux@etu.univ-grenoble-alpes.fr</p>
-     </details>
-  </section>
+    <section id="Contact">
+      <article>
+        <h2>Contact</h2>
+
+      </article>
+      
+  
 
  
   </main>
@@ -60,7 +74,7 @@
     <nav>
       <a href="https://www.linkedin.com/in/thomas-g-b63257119/">LinkedIn</a>
     </nav>
-    <pre>Derniere modification : 27/04/2023</pre>
+    <pre>Derniere modification : 11/05/2023</pre>
   </footer>
   </body>
 
